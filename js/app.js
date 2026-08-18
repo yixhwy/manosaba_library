@@ -57,8 +57,8 @@
     return base + encoded;
   }
 
-  function localAudioUrl(relativePath) {
-    const base = (config.audioLocalFallback || "./audio/").replace(/\/?$/, "/");
+  function fallbackAudioUrl(relativePath) {
+    const base = (config.audioFallbackUrl || config.audioLocalFallback || "./audio/").replace(/\/?$/, "/");
     const encoded = relativePath
       .split("/")
       .map((part) => encodeURIComponent(part))
@@ -111,9 +111,9 @@
     if (activeAudioButton) setActiveAudio(activeAudioButton, true);
   });
   audio.addEventListener("error", () => {
-    if (!audioFallbackUsed && config.audioLocalFallback && audioSourcePath) {
+    if (!audioFallbackUsed && (config.audioFallbackUrl || config.audioLocalFallback) && audioSourcePath) {
       audioFallbackUsed = true;
-      audio.src = localAudioUrl(audioSourcePath);
+      audio.src = fallbackAudioUrl(audioSourcePath);
       audio.play().catch(() => {
         audioFallbackUsed = false;
         clearActiveAudio();

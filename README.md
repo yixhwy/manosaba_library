@@ -42,14 +42,17 @@ node tools/build_data.mjs
 
 ## 音频地址
 
-语音已上传到 GitHub 仓库的 `audio` 分支，前端通过 jsDelivr 播放：
+语音已上传到 GitHub 仓库的 `audio` 分支，Cloudflare Pages 通过
+`functions/audio/[[path]].js` 同源代理音频，并优先走 Cloudflare
+边缘缓存；前端地址为 `/audio/`，上游为 jsDelivr：
 
 ```js
-audioBaseUrl: "https://cdn.jsdelivr.net/gh/yixhwy/manosaba_library@audio/audio/",
+audioBaseUrl: "/audio/",
+audioFallbackUrl: "https://cdn.jsdelivr.net/gh/yixhwy/manosaba_library@audio/audio/",
 ```
 
 GitHub 仓库必须是公开仓库，音频才能被公开访问。页面播放失败时会
-自动回退到本地 `./audio/`，便于调试。
+自动回退到 jsDelivr，再回退到本地 `./audio/`。
 
 ## 部署到 Cloudflare Pages
 
