@@ -42,9 +42,14 @@ node tools/build_data.mjs
 
 ## 音频地址
 
-`js/config.js` 中的 `audioBaseUrl` 已预留为 Cloudflare R2 公共地址，
-上传与配置方法见 `docs/r2-voice.md`。页面播放失败时会自动回退到本地
-`./audio/`，便于调试。
+语音已上传到 GitHub 仓库的 `audio` 分支，前端通过 jsDelivr 播放：
+
+```js
+audioBaseUrl: "https://cdn.jsdelivr.net/gh/yixhwy/manosaba_library@audio/audio/",
+```
+
+GitHub 仓库必须是公开仓库，音频才能被公开访问。页面播放失败时会
+自动回退到本地 `./audio/`，便于调试。
 
 ## 部署到 Cloudflare Pages
 
@@ -53,4 +58,4 @@ node tools/build_data.mjs
 3. 构建命令留空，构建输出目录填写 `/`。
 4. 部署后访问 `*.pages.dev` 地址。
 
-完整的语音文件不建议提交到 Git 仓库，应通过 R2 提供。
+语音文件位于 GitHub 仓库的独立 `audio` 分支，不进入 Cloudflare Pages 部署分支。
