@@ -52,7 +52,22 @@ rclone copy "D:\魔裁解包密码0721\魔裁\人物语音（已按人物分类�
 
 rclone 会按清单里的相对路径原样复制，目录结构不会丢失。
 
-如果之后要上传更多章节，可以扩展 `tools/build_data.mjs` 重新生成清单，再重复这条命令。
+### 2.3 一键上传脚本
+
+也可以直接使用项目里的 `tools/upload-voice.ps1`。先在终端设置凭据，
+再运行脚本：
+
+```powershell
+$env:R2_ACCOUNT_ID = "你的账户ID"
+$env:R2_ACCESS_KEY_ID = "R2 API Token 的 Access Key"
+$env:R2_SECRET_ACCESS_KEY = "R2 API Token 的 Secret"
+$env:R2_BUCKET = "voice"
+.\tools\upload-voice.ps1
+```
+
+脚本会自动创建 rclone 配置，并按 `data/audio-manifest.txt` 上传全部语音。
+
+如果之后要上传更多内容，可以重新生成清单后再次运行脚本。
 
 ### 2.3 其他方式
 
