@@ -3,7 +3,7 @@
 
   const config = window.APP_CONFIG || {};
   const MAX_RESULTS = 200;
-  const BATCH_SIZE = 80;
+  const BATCH_SIZE = 40;
   const SEARCH_DELAY = 180;
   const nav = document.getElementById("chapterNav");
   const sceneTitle = document.getElementById("sceneTitle");
@@ -168,25 +168,62 @@
     return item;
   }
 
-  function batchAppend(items, token, onComplete) {
+  function batchAppend(items, token, createItem, onComplete) {
     let index = 0;
     const append = () => {
       if (token !== renderId) return;
       const fragment = document.createDocumentFragment();
       const end = Math.min(index + BATCH_SIZE, items.length);
-      for (; index < end; index += 1) fragment.append(items[index]);
+      for (; index < end; index += 1) {
+        fragment.append(createItem ? createItem(items[index]) : items[index]);
+      }
       lineList.append(fragment);
       if (index < items.length) requestAnimationFrame(append);
       else if (onComplete) onComplete();
     };
     append();
   }
-
   function emptyState(text, className = "") {
     const item = document.createElement("li");
     item.className = `empty-state ${className}`.trim();
     item.textContent = text;
     return item;
+  }
+
+  function appendChapterScenes(chapter, body) {
+    const groups = new Map((chapter.badGroups || []).map((group) => [group.adv, group]));
+    const nested = new Set((chapter.badGroups || []).flatMap((group) => [group.adv, ...group.bads]));
+    for (const scene of chapter.scenes) {
+      const group = groups.get(scene.label);
+      if (group) {
+        const box = document.createElement("div");
+        box.className = "bad-group";
+        const key = `${chapter.id}::${scene.label}`;
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "bad-toggle";
+        toggle.textContent = `${group.adv}（${group.bads.join("、")}）`;
+        const badOpened = openBadGroups.has(key);
+        toggle.classList.toggle("is-open", badOpened);
+        toggle.setAttribute("aria-expanded", String(badOpened));
+        const badBody = document.createElement("div");
+        badBody.className = "bad-body";
+        badBody.hidden = !badOpened;
+        toggle.addEventListener("click", () => {
+          if (openBadGroups.has(key)) openBadGroups.delete(key); else openBadGroups.add(key);
+          renderSidebar();
+          updateActive();
+        });
+        box.append(toggle, badBody);
+        for (const label of [group.adv, ...group.bads]) {
+          const target = chapter.scenes.find((item) => item.label === label);
+          if (target) badBody.append(sceneButton(chapter, target));
+        }
+        body.append(box);
+      } else if (!nested.has(scene.label)) {
+        body.append(sceneButton(chapter, scene));
+      }
+    }
   }
 
   function renderSidebar() {
@@ -204,41 +241,16 @@
       const body = document.createElement("div");
       body.className = "chapter-body";
       body.hidden = !opened;
-      const groups = new Map((chapter.badGroups || []).map((group) => [group.adv, group]));
-      const nested = new Set((chapter.badGroups || []).flatMap((group) => [group.adv, ...group.bads]));
-      for (const scene of chapter.scenes) {
-        const group = groups.get(scene.label);
-        if (group) {
-          const box = document.createElement("div");
-          box.className = "bad-group";
-          const key = `${chapter.id}::${scene.label}`;
-          const toggle = document.createElement("button");
-          toggle.type = "button";
-          toggle.className = "bad-toggle";
-          toggle.textContent = `${group.adv}（${group.bads.join("、")}）`;
-          const badOpened = openBadGroups.has(key);
-          toggle.classList.toggle("is-open", badOpened);
-          toggle.setAttribute("aria-expanded", String(badOpened));
-          const badBody = document.createElement("div");
-          badBody.className = "bad-body";
-          badBody.hidden = !badOpened;
-          toggle.addEventListener("click", () => {
-            if (openBadGroups.has(key)) openBadGroups.delete(key); else openBadGroups.add(key);
-            renderSidebar();
-            updateActive();
-          });
-          box.append(toggle, badBody);
-          for (const label of [group.adv, ...group.bads]) {
-            const target = chapter.scenes.find((item) => item.label === label);
-            if (target) badBody.append(sceneButton(chapter, target));
-          }
-          body.append(box);
-        } else if (!nested.has(scene.label)) {
-          body.append(sceneButton(chapter, scene));
-        }
-      }
+      if (opened) appendChapterScenes(chapter, body);
       heading.addEventListener("click", () => {
-        if (openChapters.has(chapter.id)) { openChapters.delete(chapter.id); for (const key of [...openBadGroups]) { if (key.startsWith(`${chapter.id}::`)) openBadGroups.delete(key); } } else { openChapters.add(chapter.id); }
+        if (openChapters.has(chapter.id)) {
+          openChapters.delete(chapter.id);
+          for (const key of [...openBadGroups]) {
+            if (key.startsWith(`${chapter.id}::`)) openBadGroups.delete(key);
+          }
+        } else {
+          openChapters.add(chapter.id);
+        }
         renderSidebar();
         updateActive();
       });
@@ -247,7 +259,6 @@
     }
     nav.replaceChildren(fragment);
   }
-
   function sceneButton(chapter, scene) {
     const button = document.createElement("button");
     button.type = "button";
@@ -351,9 +362,8 @@
       renderSidebar(); renderScopes(); updateScopeLabel();
       sceneTitle.textContent = `${chapter.label} · ${scene.label}`;
       sceneMeta.textContent = `${scene.lines.length} 条台词 · ${scene.lines.filter((line) => line.audio).length} 条有语音`;
-      const items = scene.lines.map(createLine);
       lineList.replaceChildren();
-      if (items.length) batchAppend(items, token); else lineList.append(emptyState("该场景没有台词"));
+      if (scene.lines.length) batchAppend(scene.lines, token, createLine); else lineList.append(emptyState("该场景没有台词"));
       updateActive();
       if (contentScroll) contentScroll.scrollTop = 0;
     } catch (error) {
@@ -413,7 +423,7 @@
       moreItem.append(moreButton);
       lineList.append(moreItem);
     };
-    if (items.length) batchAppend(items, token, appendMoreButton);
+    if (items.length) batchAppend(items, token, null, appendMoreButton);
     else lineList.append(emptyState("没有找到匹配的台词"));
     sceneMeta.textContent = lastSearchEntries.length > visibleSearchCount
       ? `已显示 ${visibleSearchCount} / 共 ${lastSearchEntries.length} 条`

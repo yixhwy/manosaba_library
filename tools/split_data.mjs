@@ -45,7 +45,7 @@ for (const chapter of game.chapters) {
 
 fs.writeFileSync(
   path.join(dataRoot, 'manifest.json'),
-  `${JSON.stringify({ version: 1, speakers, chapters: game.chapters.map(chapterSummary) }, null, 2)}\n`,
+  `${JSON.stringify({ version: 1, speakers, chapters: game.chapters.map(chapterSummary) })}\n`,
   'utf8',
 );
 
@@ -53,23 +53,23 @@ const entries = [];
 for (const chapter of game.chapters) {
   for (const scene of chapter.scenes) {
     for (const line of scene.lines) {
-      entries.push({
+      const entry = {
         chapterId: chapter.id,
         sceneId: scene.id,
-        lineId: line.id,
         speaker: line.speaker,
         text: line.text,
-        markedText: line.markedText,
         kind: line.kind,
         audio: line.audio,
-      });
+      };
+      if (line.markedText && line.markedText !== line.text) entry.markedText = line.markedText;
+      entries.push(entry);
     }
   }
 }
 
 fs.writeFileSync(
   path.join(dataRoot, 'search-index.json'),
-  `${JSON.stringify({ version: 1, entries })}\n`,
+  `${JSON.stringify({ version: 2, entries })}\n`,
   'utf8',
 );
 
