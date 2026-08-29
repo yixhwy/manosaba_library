@@ -802,34 +802,16 @@ button.line.is-playing {
   }
 }
 
-/* 语音播放中状态：与普通语音按钮形成清晰区别 */
+/* 语音播放状态：未播放显示三角形，播放中显示红色方块 */
 .browse-view button.line.voiced {
   position: relative;
   overflow: hidden;
 }
 
 .browse-view button.line.voiced.is-playing {
-  border-color: #b84a5a;
+  border-color: #c0392b;
   background: #f9e9e6;
-  box-shadow: 0 0 0 2px rgb(184 74 90 / 0.14), inset 4px 0 0 #b84a5a;
-}
-
-.browse-view button.line.voiced .playback-label {
-  display: none;
-  flex: 0 0 auto;
-  align-items: center;
-  padding: 1px 6px;
-  border-radius: 4px;
-  background: #b84a5a;
-  color: #fff;
-  font-size: 0.68rem;
-  line-height: 1.5;
-  white-space: nowrap;
-  pointer-events: none;
-}
-
-.browse-view button.line.voiced.is-playing .playback-label {
-  display: inline-flex;
+  box-shadow: 0 0 0 2px rgb(192 57 43 / 0.14), inset 4px 0 0 #c0392b;
 }
 
 .browse-view button.line.voiced.is-playing .play-indicator {
@@ -838,47 +820,5 @@ button.line.is-playing {
   margin-top: 7px;
   border: 0;
   border-radius: 2px;
-  background: #b84a5a;
-  position: relative;
-}
-
-.browse-view button.line.voiced.is-playing .play-indicator::before,
-.browse-view button.line.voiced.is-playing .play-indicator::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 2px;
-  border-radius: 2px;
-  background: #fff;
-  animation: voice-wave 760ms ease-in-out infinite alternate;
-}
-
-.browse-view button.line.voiced.is-playing .play-indicator::before {
-  left: 3px;
-  height: 6px;
-}
-
-.browse-view button.line.voiced.is-playing .play-indicator::after {
-  right: 3px;
-  height: 9px;
-  animation-delay: 180ms;
-}
-
-@keyframes voice-wave {
-  from { transform: scaleY(0.55); }
-  to { transform: scaleY(1); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .browse-view button.line.voiced.is-playing .play-indicator::before,
-  .browse-view button.line.voiced.is-playing .play-indicator::after {
-    animation: none;
-  }
-}
-
-@media (max-width: 760px) {
-  .browse-view button.line.voiced.is-playing .playback-label {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+  background: #c0392b;
 }

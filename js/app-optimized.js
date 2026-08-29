@@ -158,11 +158,7 @@
     appendText(text, line, line.kind === "@choice" ? "【选项】" : null);
     content.append(text);
     if (line.audio) {
-      const playbackLabel = document.createElement("span");
-      playbackLabel.className = "playback-label";
-      playbackLabel.textContent = "播放中";
-      playbackLabel.setAttribute("aria-hidden", "true");
-      content.append(playbackLabel);
+
       const indicator = document.createElement("span");
       indicator.className = "play-indicator";
       indicator.setAttribute("aria-hidden", "true");
