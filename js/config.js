@@ -1,6 +1,5 @@
 window.APP_CONFIG = {
-  dataUrl: "./data/game.json",
+  manifestUrl: "./data/manifest.json",
+  searchIndexUrl: "./data/search-index.json",
   audioBaseUrl: "/audio/",
-  audioFallbackUrl: "https://cdn.jsdelivr.net/gh/yixhwy/manosaba_library@audio/audio/",
-  audioLocalFallback: "./audio/",
 };

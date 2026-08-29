@@ -11,14 +11,28 @@ const textRoot = process.env.TEXT_ROOT
 const voiceRoot = process.env.VOICE_ROOT
   ? path.resolve(process.env.VOICE_ROOT)
   : gameRoot
-    ? path.join(gameRoot, '人物语音（已按人物分类过了')
+    ? ['人物语音', '人物语音（已按人物分类过了']
+      .map((name) => path.join(gameRoot, name))
+      .find((candidate) => fs.existsSync(candidate)) || path.join(gameRoot, '人物语音')
     : null;
-
 if (!textRoot || !voiceRoot) {
   throw new Error(
     '请设置 GAME_ROOT 环境变量，指向游戏解包目录；也可用 TEXT_ROOT、VOICE_ROOT 分别指定文本与语音目录。',
   );
 }
+
+function requireDirectory(directory, label) {
+  let stat;
+  try {
+    stat = fs.statSync(directory);
+  } catch {
+    throw new Error(`${label}目录不存在：${directory}`);
+  }
+  if (!stat.isDirectory()) throw new Error(`${label}路径不是目录：${directory}`);
+}
+
+requireDirectory(textRoot, '文本');
+requireDirectory(voiceRoot, '语音');
 
 const dataOutFile = path.join(projectRoot, 'data', 'game.json');
 const manifestOutFile = path.join(projectRoot, 'data', 'audio-manifest.txt');
@@ -146,14 +160,16 @@ function walkFiles(dir, onFile) {
 
 function buildAudioIndex() {
   const index = new Map();
+  const duplicates = [];
   walkFiles(voiceRoot, (fullPath, name) => {
-    if (name.toLowerCase().endsWith('.ogg')) {
-      const key = path.parse(name).name.toLowerCase();
-      if (!index.has(key)) {
-        index.set(key, fullPath);
-      }
-    }
+    if (!name.toLowerCase().endsWith('.ogg')) return;
+    const key = path.parse(name).name.toLowerCase();
+    if (index.has(key)) duplicates.push(key);
+    else index.set(key, fullPath);
   });
+  if (duplicates.length) {
+    throw new Error(`发现重复音频 ID（${duplicates.length} 个）：${duplicates.slice(0, 5).join(', ')}`);
+  }
   return index;
 }
 
@@ -292,6 +308,10 @@ function main() {
       });
     }
 
+    const expectedBadCount = badCounts.reduce((sum, item) => sum + item.count, 0);
+    if (expectedBadCount !== badSceneIds.length) {
+      throw new Error(`${chapterId} 的 Bad 分支数量不匹配：选项引用 ${expectedBadCount}，Bad 场景 ${badSceneIds.length}`);
+    }
     rawChapters[chapterId] = { scenes, badGroups };
   }
 
@@ -350,6 +370,10 @@ function main() {
   fs.writeFileSync(dataOutFile, `${JSON.stringify({ chapters }, null, 2)}\n`, 'utf8');
 
   const manifest = [...audioPaths].sort(naturalCompare);
+  const missingAudio = manifest.filter((relativePath) => !fs.existsSync(path.join(voiceRoot, relativePath)));
+  if (missingAudio.length) {
+    throw new Error(`生成了不存在的音频路径（${missingAudio.length} 个）：${missingAudio.slice(0, 5).join(', ')}`);
+  }
   fs.writeFileSync(manifestOutFile, `${manifest.join('\n')}\n`, 'utf8');
 
   const sceneCount = chapters.reduce((sum, chapter) => sum + chapter.scenes.length, 0);

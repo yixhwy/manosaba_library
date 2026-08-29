@@ -1,64 +1,52 @@
-# 魔裁 台词语音站
+# 魔裁台词语音站
 
-纯 HTML/CSS/JS 的静态视觉小说台词预览站，覆盖全部 11 个章节，
-左侧提供章节/场景导航，顶部搜索栏支持“一周目/二周目/三周目/角色”
-范围标签多选、关键词搜索和台词语音播放。
+纯 HTML/CSS/JS 静态站点，用于浏览、搜索魔裁全章节台词并播放对应语音。
+
+## 线上架构
+
+- 网页静态文件由 Cloudflare Pages 部署。
+- 台词数据发布在 `data/game.json`、`data/manifest.json`、`data/search-index.json` 和 `data/chapters/`。
+- 语音文件存放在 GitHub 仓库 [yixhwy/manosaba_library](https://github.com/yixhwy/manosaba_library) 的 `audio` 分支，不上传到本项目或 Cloudflare R2。
+- 网页只请求同源 `/audio/<文件路径>`；Cloudflare Pages Function `functions/audio/[[path]].js` 将请求转发到 GitHub 音频分支，并利用边缘缓存。
 
 ## 本地运行
 
-建议通过本地服务器打开，而不是直接双击 `index.html`：
+只查看页面和数据时，可以使用普通静态服务器：
 
 ```powershell
-cd D:\project\codex\website
+cd D:\project\codex\copy
 python -m http.server 8080
 ```
 
-然后访问 <http://localhost:8080>。
+然后访问 <http://localhost:8080>。普通静态服务器不会执行 Cloudflare Pages Function，因此 `/audio/*` 语音代理不会在该方式下工作。语音链路需要部署到 Cloudflare Pages，或使用支持 Pages Functions 的本地模拟环境。
 
-## 生成数据
+## 重新生成数据
 
-数据由 `tools/build_data.mjs` 从游戏解包目录生成，输出
-`data/game.json`（全部章节台词）和
-`data/audio-manifest.txt`（R2 上传清单）：
+使用游戏解包目录生成完整台词数据和 GitHub 音频清单：
 
 ```powershell
+$env:GAME_ROOT = "D:\魔裁解包密码0721\魔裁解包"
 node tools/build_data.mjs
+node tools/split_data.mjs
 ```
 
-构建脚本不包含本地绝对路径。运行前需要通过环境变量指定游戏解包目录：
+默认会读取 `GAME_ROOT\游戏文本` 和 `GAME_ROOT\人物语音`。脚本也兼容旧目录名 `人物语音（已按人物分类过了`，或使用 `TEXT_ROOT`、`VOICE_ROOT` 分别指定路径。
 
-```powershell
-$env:GAME_ROOT = "D:\魔裁解包密码0721\魔裁"
-node tools/build_data.mjs
-```
+构建结果包括：
 
-脚本会在 `GAME_ROOT` 下查找 `游戏文本` 和
-`人物语音（已按人物分类过了`；也可以用 `TEXT_ROOT`、`VOICE_ROOT`
-单独覆盖这两个目录。
+- `data/game.json`：完整数据副本，便于构建和排错。
+- `data/audio-manifest.txt`：被剧情引用的 `.ogg` 相对路径清单。
+- `data/chapters/*.json`：按章节懒加载的台词数据。
+- `data/manifest.json`：章节统计、Bad 分支关系和真实角色列表。
+- `data/search-index.json`：搜索所需的轻量索引。
 
-构建过程会保留 `<link>` 选项、`@choice` 和说话人信息，并自动把
-每章带 Bad 选项的 Adv 场景与对应 Bad 结局分组。
-脚本只生成 JSON，不会把 4.4GB 语音复制进仓库。
+构建会检查输入目录、重复音频 ID、音频路径和 Bad 分支数量；检查失败时不会得到可部署的完整结果。
 
-## 音频地址
+## Cloudflare Pages 部署
 
-语音已上传到 GitHub 仓库的 `audio` 分支，Cloudflare Pages 通过
-`functions/audio/[[path]].js` 同源代理音频，并优先走 Cloudflare
-边缘缓存；前端地址为 `/audio/`，上游为 jsDelivr：
+1. 将本目录连接到 Cloudflare Pages，构建命令留空，输出目录使用项目根目录。
+2. 确认 `functions/audio/[[path]].js` 随项目一起部署。
+3. 保持 GitHub 音频仓库公开，并确认 `audio` 分支中的目录结构与 `data/audio-manifest.txt` 相同。
+4. 部署后检查站点页面和任意 `/audio/` 语音请求。
 
-```js
-audioBaseUrl: "/audio/",
-audioFallbackUrl: "https://cdn.jsdelivr.net/gh/yixhwy/manosaba_library@audio/audio/",
-```
-
-GitHub 仓库必须是公开仓库，音频才能被公开访问。页面播放失败时会
-自动回退到 jsDelivr，再回退到本地 `./audio/`。
-
-## 部署到 Cloudflare Pages
-
-1. 把当前目录推送到 GitHub 仓库。
-2. 在 Cloudflare Pages 新建项目并连接该仓库。
-3. 构建命令留空，构建输出目录填写 `/`。
-4. 部署后访问 `*.pages.dev` 地址。
-
-语音文件位于 GitHub 仓库的独立 `audio` 分支，不进入 Cloudflare Pages 部署分支。
+当前前端不直连 GitHub 或 jsDelivr，音频统一由同源 Cloudflare Function 提供。

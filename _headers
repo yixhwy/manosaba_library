@@ -1,0 +1,11 @@
+/data/manifest.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/data/search-index.json
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/data/chapters/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

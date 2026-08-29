@@ -1,0 +1,3069 @@
+{
+  "version": 1,
+  "speakers": [
+    "Alisa",
+    "AnAn",
+    "BigWitch",
+    "Coco",
+    "Ema",
+    "EmaFake",
+    "Girl",
+    "Hanna",
+    "Hiro",
+    "Jailer",
+    "Leia",
+    "Margo",
+    "Meruru",
+    "Miria",
+    "Nanoka",
+    "Noah",
+    "Rabbit",
+    "Sherry",
+    "StrayNarehate",
+    "Unknown",
+    "Warden",
+    "WitchCandidate1",
+    "WitchCandidate2",
+    "WitchCandidate3",
+    "Yuki"
+  ],
+  "chapters": [
+    {
+      "id": "Act01_Chapter01",
+      "label": "一周目第一章",
+      "badGroups": [
+        {
+          "adv": "Adv05",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv07",
+          "bads": [
+            "Bad02"
+          ]
+        },
+        {
+          "adv": "Adv13",
+          "bads": [
+            "Bad03"
+          ]
+        },
+        {
+          "adv": "Adv18",
+          "bads": [
+            "Bad04",
+            "Bad05"
+          ]
+        },
+        {
+          "adv": "Adv19",
+          "bads": [
+            "Bad06"
+          ]
+        },
+        {
+          "adv": "Adv20",
+          "bads": [
+            "Bad07"
+          ]
+        },
+        {
+          "adv": "Adv33",
+          "bads": [
+            "Bad08"
+          ]
+        }
+      ],
+      "sceneCount": 60,
+      "lineCount": 4674,
+      "voiceCount": 3262,
+      "scenes": [
+        {
+          "id": "Act01_Chapter01_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 24,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter01_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 79,
+          "voiceCount": 33
+        },
+        {
+          "id": "Act01_Chapter01_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 30,
+          "voiceCount": 13
+        },
+        {
+          "id": "Act01_Chapter01_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 244,
+          "voiceCount": 127
+        },
+        {
+          "id": "Act01_Chapter01_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 95,
+          "voiceCount": 52
+        },
+        {
+          "id": "Act01_Chapter01_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 56,
+          "voiceCount": 22
+        },
+        {
+          "id": "Act01_Chapter01_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 56,
+          "voiceCount": 26
+        },
+        {
+          "id": "Act01_Chapter01_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 92,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act01_Chapter01_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 72,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act01_Chapter01_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 46,
+          "voiceCount": 36
+        },
+        {
+          "id": "Act01_Chapter01_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter01_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 53,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act01_Chapter01_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 62,
+          "voiceCount": 39
+        },
+        {
+          "id": "Act01_Chapter01_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 62,
+          "voiceCount": 45
+        },
+        {
+          "id": "Act01_Chapter01_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 42,
+          "voiceCount": 29
+        },
+        {
+          "id": "Act01_Chapter01_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 45,
+          "voiceCount": 23
+        },
+        {
+          "id": "Act01_Chapter01_Adv17",
+          "label": "Adv17",
+          "kind": "adv",
+          "lineCount": 51,
+          "voiceCount": 35
+        },
+        {
+          "id": "Act01_Chapter01_Adv18",
+          "label": "Adv18",
+          "kind": "adv",
+          "lineCount": 113,
+          "voiceCount": 67
+        },
+        {
+          "id": "Act01_Chapter01_Adv19",
+          "label": "Adv19",
+          "kind": "adv",
+          "lineCount": 46,
+          "voiceCount": 26
+        },
+        {
+          "id": "Act01_Chapter01_Adv20",
+          "label": "Adv20",
+          "kind": "adv",
+          "lineCount": 67,
+          "voiceCount": 40
+        },
+        {
+          "id": "Act01_Chapter01_Adv21",
+          "label": "Adv21",
+          "kind": "adv",
+          "lineCount": 44,
+          "voiceCount": 25
+        },
+        {
+          "id": "Act01_Chapter01_Adv22",
+          "label": "Adv22",
+          "kind": "adv",
+          "lineCount": 60,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act01_Chapter01_Adv23",
+          "label": "Adv23",
+          "kind": "adv",
+          "lineCount": 41,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter01_Adv24",
+          "label": "Adv24",
+          "kind": "adv",
+          "lineCount": 76,
+          "voiceCount": 45
+        },
+        {
+          "id": "Act01_Chapter01_Adv25",
+          "label": "Adv25",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter01_Adv26",
+          "label": "Adv26",
+          "kind": "adv",
+          "lineCount": 85,
+          "voiceCount": 52
+        },
+        {
+          "id": "Act01_Chapter01_Adv27",
+          "label": "Adv27",
+          "kind": "adv",
+          "lineCount": 65,
+          "voiceCount": 40
+        },
+        {
+          "id": "Act01_Chapter01_Adv28",
+          "label": "Adv28",
+          "kind": "adv",
+          "lineCount": 32,
+          "voiceCount": 17
+        },
+        {
+          "id": "Act01_Chapter01_Adv29",
+          "label": "Adv29",
+          "kind": "adv",
+          "lineCount": 24,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter01_Adv30",
+          "label": "Adv30",
+          "kind": "adv",
+          "lineCount": 64,
+          "voiceCount": 33
+        },
+        {
+          "id": "Act01_Chapter01_Adv31",
+          "label": "Adv31",
+          "kind": "adv",
+          "lineCount": 52,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act01_Chapter01_Adv32",
+          "label": "Adv32",
+          "kind": "adv",
+          "lineCount": 39,
+          "voiceCount": 29
+        },
+        {
+          "id": "Act01_Chapter01_Adv33",
+          "label": "Adv33",
+          "kind": "adv",
+          "lineCount": 61,
+          "voiceCount": 36
+        },
+        {
+          "id": "Act01_Chapter01_Adv34",
+          "label": "Adv34",
+          "kind": "adv",
+          "lineCount": 45,
+          "voiceCount": 25
+        },
+        {
+          "id": "Act01_Chapter01_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 24,
+          "voiceCount": 24
+        },
+        {
+          "id": "Act01_Chapter01_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 73,
+          "voiceCount": 67
+        },
+        {
+          "id": "Act01_Chapter01_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 79,
+          "voiceCount": 71
+        },
+        {
+          "id": "Act01_Chapter01_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 115,
+          "voiceCount": 107
+        },
+        {
+          "id": "Act01_Chapter01_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 111,
+          "voiceCount": 106
+        },
+        {
+          "id": "Act01_Chapter01_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 94,
+          "voiceCount": 90
+        },
+        {
+          "id": "Act01_Chapter01_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 120,
+          "voiceCount": 111
+        },
+        {
+          "id": "Act01_Chapter01_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 211,
+          "voiceCount": 188
+        },
+        {
+          "id": "Act01_Chapter01_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 96,
+          "voiceCount": 90
+        },
+        {
+          "id": "Act01_Chapter01_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 146,
+          "voiceCount": 132
+        },
+        {
+          "id": "Act01_Chapter01_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 138,
+          "voiceCount": 129
+        },
+        {
+          "id": "Act01_Chapter01_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 110,
+          "voiceCount": 99
+        },
+        {
+          "id": "Act01_Chapter01_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 135,
+          "voiceCount": 127
+        },
+        {
+          "id": "Act01_Chapter01_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 218,
+          "voiceCount": 203
+        },
+        {
+          "id": "Act01_Chapter01_Trial14",
+          "label": "Trial14",
+          "kind": "trial",
+          "lineCount": 186,
+          "voiceCount": 175
+        },
+        {
+          "id": "Act01_Chapter01_Trial15",
+          "label": "Trial15",
+          "kind": "trial",
+          "lineCount": 34,
+          "voiceCount": 34
+        },
+        {
+          "id": "Act01_Chapter01_Adv35",
+          "label": "Adv35",
+          "kind": "adv",
+          "lineCount": 147,
+          "voiceCount": 85
+        },
+        {
+          "id": "Act01_Chapter01_Adv36",
+          "label": "Adv36",
+          "kind": "adv",
+          "lineCount": 69,
+          "voiceCount": 12
+        },
+        {
+          "id": "Act01_Chapter01_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 15,
+          "voiceCount": 4
+        },
+        {
+          "id": "Act01_Chapter01_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 83,
+          "voiceCount": 31
+        },
+        {
+          "id": "Act01_Chapter01_Bad03",
+          "label": "Bad03",
+          "kind": "bad",
+          "lineCount": 56,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter01_Bad04",
+          "label": "Bad04",
+          "kind": "bad",
+          "lineCount": 73,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act01_Chapter01_Bad05",
+          "label": "Bad05",
+          "kind": "bad",
+          "lineCount": 115,
+          "voiceCount": 79
+        },
+        {
+          "id": "Act01_Chapter01_Bad06",
+          "label": "Bad06",
+          "kind": "bad",
+          "lineCount": 57,
+          "voiceCount": 33
+        },
+        {
+          "id": "Act01_Chapter01_Bad07",
+          "label": "Bad07",
+          "kind": "bad",
+          "lineCount": 74,
+          "voiceCount": 41
+        },
+        {
+          "id": "Act01_Chapter01_Bad08",
+          "label": "Bad08",
+          "kind": "bad",
+          "lineCount": 72,
+          "voiceCount": 42
+        }
+      ]
+    },
+    {
+      "id": "Act01_Chapter02",
+      "label": "一周目第二章",
+      "badGroups": [
+        {
+          "adv": "Adv03",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv05",
+          "bads": [
+            "Bad02"
+          ]
+        }
+      ],
+      "sceneCount": 47,
+      "lineCount": 3957,
+      "voiceCount": 3042,
+      "scenes": [
+        {
+          "id": "Act01_Chapter02_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 127,
+          "voiceCount": 71
+        },
+        {
+          "id": "Act01_Chapter02_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 107,
+          "voiceCount": 70
+        },
+        {
+          "id": "Act01_Chapter02_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 75,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act01_Chapter02_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 100,
+          "voiceCount": 68
+        },
+        {
+          "id": "Act01_Chapter02_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 126,
+          "voiceCount": 78
+        },
+        {
+          "id": "Act01_Chapter02_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 52,
+          "voiceCount": 36
+        },
+        {
+          "id": "Act01_Chapter02_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 8,
+          "voiceCount": 4
+        },
+        {
+          "id": "Act01_Chapter02_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter02_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 20,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act01_Chapter02_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 35,
+          "voiceCount": 26
+        },
+        {
+          "id": "Act01_Chapter02_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 22
+        },
+        {
+          "id": "Act01_Chapter02_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 23,
+          "voiceCount": 13
+        },
+        {
+          "id": "Act01_Chapter02_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 44,
+          "voiceCount": 31
+        },
+        {
+          "id": "Act01_Chapter02_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 77,
+          "voiceCount": 57
+        },
+        {
+          "id": "Act01_Chapter02_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 49,
+          "voiceCount": 34
+        },
+        {
+          "id": "Act01_Chapter02_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 91,
+          "voiceCount": 46
+        },
+        {
+          "id": "Act01_Chapter02_Adv17",
+          "label": "Adv17",
+          "kind": "adv",
+          "lineCount": 102,
+          "voiceCount": 44
+        },
+        {
+          "id": "Act01_Chapter02_Adv18",
+          "label": "Adv18",
+          "kind": "adv",
+          "lineCount": 62,
+          "voiceCount": 46
+        },
+        {
+          "id": "Act01_Chapter02_Adv19",
+          "label": "Adv19",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter02_Adv20",
+          "label": "Adv20",
+          "kind": "adv",
+          "lineCount": 60,
+          "voiceCount": 45
+        },
+        {
+          "id": "Act01_Chapter02_Adv21",
+          "label": "Adv21",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 21
+        },
+        {
+          "id": "Act01_Chapter02_Adv22",
+          "label": "Adv22",
+          "kind": "adv",
+          "lineCount": 23,
+          "voiceCount": 9
+        },
+        {
+          "id": "Act01_Chapter02_Adv23",
+          "label": "Adv23",
+          "kind": "adv",
+          "lineCount": 28,
+          "voiceCount": 19
+        },
+        {
+          "id": "Act01_Chapter02_Adv24",
+          "label": "Adv24",
+          "kind": "adv",
+          "lineCount": 24,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter02_Adv25",
+          "label": "Adv25",
+          "kind": "adv",
+          "lineCount": 22,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter02_Adv26",
+          "label": "Adv26",
+          "kind": "adv",
+          "lineCount": 26,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter02_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 31,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act01_Chapter02_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 180,
+          "voiceCount": 169
+        },
+        {
+          "id": "Act01_Chapter02_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 143,
+          "voiceCount": 134
+        },
+        {
+          "id": "Act01_Chapter02_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 116,
+          "voiceCount": 108
+        },
+        {
+          "id": "Act01_Chapter02_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 98,
+          "voiceCount": 94
+        },
+        {
+          "id": "Act01_Chapter02_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 92,
+          "voiceCount": 83
+        },
+        {
+          "id": "Act01_Chapter02_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 115,
+          "voiceCount": 107
+        },
+        {
+          "id": "Act01_Chapter02_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 180,
+          "voiceCount": 168
+        },
+        {
+          "id": "Act01_Chapter02_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 148,
+          "voiceCount": 137
+        },
+        {
+          "id": "Act01_Chapter02_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 117,
+          "voiceCount": 108
+        },
+        {
+          "id": "Act01_Chapter02_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 175,
+          "voiceCount": 165
+        },
+        {
+          "id": "Act01_Chapter02_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 157,
+          "voiceCount": 146
+        },
+        {
+          "id": "Act01_Chapter02_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 109,
+          "voiceCount": 101
+        },
+        {
+          "id": "Act01_Chapter02_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 182,
+          "voiceCount": 169
+        },
+        {
+          "id": "Act01_Chapter02_Trial14",
+          "label": "Trial14",
+          "kind": "trial",
+          "lineCount": 151,
+          "voiceCount": 142
+        },
+        {
+          "id": "Act01_Chapter02_Trial15",
+          "label": "Trial15",
+          "kind": "trial",
+          "lineCount": 30,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act01_Chapter02_Adv27",
+          "label": "Adv27",
+          "kind": "adv",
+          "lineCount": 204,
+          "voiceCount": 111
+        },
+        {
+          "id": "Act01_Chapter02_Adv28",
+          "label": "Adv28",
+          "kind": "adv",
+          "lineCount": 17,
+          "voiceCount": 2
+        },
+        {
+          "id": "Act01_Chapter02_Adv29",
+          "label": "Adv29",
+          "kind": "adv",
+          "lineCount": 54,
+          "voiceCount": 7
+        },
+        {
+          "id": "Act01_Chapter02_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 93,
+          "voiceCount": 62
+        },
+        {
+          "id": "Act01_Chapter02_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 218,
+          "voiceCount": 117
+        }
+      ]
+    },
+    {
+      "id": "Act01_Chapter03",
+      "label": "一周目第三章",
+      "badGroups": [
+        {
+          "adv": "Adv03",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv12",
+          "bads": [
+            "Bad02"
+          ]
+        }
+      ],
+      "sceneCount": 45,
+      "lineCount": 3104,
+      "voiceCount": 2437,
+      "scenes": [
+        {
+          "id": "Act01_Chapter03_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 112,
+          "voiceCount": 77
+        },
+        {
+          "id": "Act01_Chapter03_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 46,
+          "voiceCount": 29
+        },
+        {
+          "id": "Act01_Chapter03_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 20,
+          "voiceCount": 9
+        },
+        {
+          "id": "Act01_Chapter03_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 71,
+          "voiceCount": 50
+        },
+        {
+          "id": "Act01_Chapter03_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 8,
+          "voiceCount": 4
+        },
+        {
+          "id": "Act01_Chapter03_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter03_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 28,
+          "voiceCount": 18
+        },
+        {
+          "id": "Act01_Chapter03_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 30,
+          "voiceCount": 21
+        },
+        {
+          "id": "Act01_Chapter03_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 27,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act01_Chapter03_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 20
+        },
+        {
+          "id": "Act01_Chapter03_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 74,
+          "voiceCount": 59
+        },
+        {
+          "id": "Act01_Chapter03_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 94,
+          "voiceCount": 62
+        },
+        {
+          "id": "Act01_Chapter03_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 77,
+          "voiceCount": 62
+        },
+        {
+          "id": "Act01_Chapter03_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 79,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act01_Chapter03_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 61,
+          "voiceCount": 37
+        },
+        {
+          "id": "Act01_Chapter03_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 44,
+          "voiceCount": 21
+        },
+        {
+          "id": "Act01_Chapter03_Adv17",
+          "label": "Adv17",
+          "kind": "adv",
+          "lineCount": 121,
+          "voiceCount": 56
+        },
+        {
+          "id": "Act01_Chapter03_Adv18",
+          "label": "Adv18",
+          "kind": "adv",
+          "lineCount": 37,
+          "voiceCount": 22
+        },
+        {
+          "id": "Act01_Chapter03_Adv19",
+          "label": "Adv19",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter03_Adv20",
+          "label": "Adv20",
+          "kind": "adv",
+          "lineCount": 38,
+          "voiceCount": 20
+        },
+        {
+          "id": "Act01_Chapter03_Adv21",
+          "label": "Adv21",
+          "kind": "adv",
+          "lineCount": 9,
+          "voiceCount": 4
+        },
+        {
+          "id": "Act01_Chapter03_Adv22",
+          "label": "Adv22",
+          "kind": "adv",
+          "lineCount": 23,
+          "voiceCount": 14
+        },
+        {
+          "id": "Act01_Chapter03_Adv23",
+          "label": "Adv23",
+          "kind": "adv",
+          "lineCount": 26,
+          "voiceCount": 13
+        },
+        {
+          "id": "Act01_Chapter03_Adv24",
+          "label": "Adv24",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 13
+        },
+        {
+          "id": "Act01_Chapter03_Adv25",
+          "label": "Adv25",
+          "kind": "adv",
+          "lineCount": 25,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter03_Adv26",
+          "label": "Adv26",
+          "kind": "adv",
+          "lineCount": 15,
+          "voiceCount": 6
+        },
+        {
+          "id": "Act01_Chapter03_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 16,
+          "voiceCount": 16
+        },
+        {
+          "id": "Act01_Chapter03_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 91,
+          "voiceCount": 85
+        },
+        {
+          "id": "Act01_Chapter03_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 115,
+          "voiceCount": 107
+        },
+        {
+          "id": "Act01_Chapter03_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 147,
+          "voiceCount": 139
+        },
+        {
+          "id": "Act01_Chapter03_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 122,
+          "voiceCount": 114
+        },
+        {
+          "id": "Act01_Chapter03_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 126,
+          "voiceCount": 121
+        },
+        {
+          "id": "Act01_Chapter03_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 92,
+          "voiceCount": 87
+        },
+        {
+          "id": "Act01_Chapter03_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 138,
+          "voiceCount": 126
+        },
+        {
+          "id": "Act01_Chapter03_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 125,
+          "voiceCount": 118
+        },
+        {
+          "id": "Act01_Chapter03_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 187,
+          "voiceCount": 172
+        },
+        {
+          "id": "Act01_Chapter03_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 138,
+          "voiceCount": 127
+        },
+        {
+          "id": "Act01_Chapter03_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 80,
+          "voiceCount": 73
+        },
+        {
+          "id": "Act01_Chapter03_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 115,
+          "voiceCount": 105
+        },
+        {
+          "id": "Act01_Chapter03_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 146,
+          "voiceCount": 135
+        },
+        {
+          "id": "Act01_Chapter03_Trial14",
+          "label": "Trial14",
+          "kind": "trial",
+          "lineCount": 27,
+          "voiceCount": 27
+        },
+        {
+          "id": "Act01_Chapter03_Adv27",
+          "label": "Adv27",
+          "kind": "adv",
+          "lineCount": 204,
+          "voiceCount": 120
+        },
+        {
+          "id": "Act01_Chapter03_Adv28",
+          "label": "Adv28",
+          "kind": "adv",
+          "lineCount": 25,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter03_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 7,
+          "voiceCount": 3
+        },
+        {
+          "id": "Act01_Chapter03_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 72,
+          "voiceCount": 49
+        }
+      ]
+    },
+    {
+      "id": "Act01_Chapter04",
+      "label": "一周目第四章",
+      "badGroups": [
+        {
+          "adv": "Adv02",
+          "bads": [
+            "Bad01"
+          ]
+        }
+      ],
+      "sceneCount": 27,
+      "lineCount": 1841,
+      "voiceCount": 1442,
+      "scenes": [
+        {
+          "id": "Act01_Chapter04_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 76,
+          "voiceCount": 42
+        },
+        {
+          "id": "Act01_Chapter04_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 88,
+          "voiceCount": 34
+        },
+        {
+          "id": "Act01_Chapter04_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 73,
+          "voiceCount": 42
+        },
+        {
+          "id": "Act01_Chapter04_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 60,
+          "voiceCount": 42
+        },
+        {
+          "id": "Act01_Chapter04_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 113,
+          "voiceCount": 43
+        },
+        {
+          "id": "Act01_Chapter04_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 87,
+          "voiceCount": 53
+        },
+        {
+          "id": "Act01_Chapter04_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 29,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act01_Chapter04_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter04_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 46,
+          "voiceCount": 27
+        },
+        {
+          "id": "Act01_Chapter04_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 51,
+          "voiceCount": 42
+        },
+        {
+          "id": "Act01_Chapter04_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 14,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter04_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 20,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter04_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 17,
+          "voiceCount": 17
+        },
+        {
+          "id": "Act01_Chapter04_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 91,
+          "voiceCount": 83
+        },
+        {
+          "id": "Act01_Chapter04_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 65,
+          "voiceCount": 61
+        },
+        {
+          "id": "Act01_Chapter04_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 127,
+          "voiceCount": 119
+        },
+        {
+          "id": "Act01_Chapter04_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 79,
+          "voiceCount": 75
+        },
+        {
+          "id": "Act01_Chapter04_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 79,
+          "voiceCount": 73
+        },
+        {
+          "id": "Act01_Chapter04_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 163,
+          "voiceCount": 158
+        },
+        {
+          "id": "Act01_Chapter04_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 103,
+          "voiceCount": 98
+        },
+        {
+          "id": "Act01_Chapter04_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 113,
+          "voiceCount": 105
+        },
+        {
+          "id": "Act01_Chapter04_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 100,
+          "voiceCount": 94
+        },
+        {
+          "id": "Act01_Chapter04_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 75,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act01_Chapter04_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 62,
+          "voiceCount": 59
+        },
+        {
+          "id": "Act01_Chapter04_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 17,
+          "voiceCount": 17
+        },
+        {
+          "id": "Act01_Chapter04_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 54,
+          "voiceCount": 28
+        },
+        {
+          "id": "Act01_Chapter04_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 39,
+          "voiceCount": 21
+        }
+      ]
+    },
+    {
+      "id": "Act01_Chapter05",
+      "label": "一周目第五章",
+      "badGroups": [
+        {
+          "adv": "Adv06",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv09",
+          "bads": [
+            "Bad02"
+          ]
+        }
+      ],
+      "sceneCount": 24,
+      "lineCount": 2480,
+      "voiceCount": 1944,
+      "scenes": [
+        {
+          "id": "Act01_Chapter05_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 35,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act01_Chapter05_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act01_Chapter05_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 50,
+          "voiceCount": 28
+        },
+        {
+          "id": "Act01_Chapter05_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 136,
+          "voiceCount": 80
+        },
+        {
+          "id": "Act01_Chapter05_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 12,
+          "voiceCount": 7
+        },
+        {
+          "id": "Act01_Chapter05_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 11,
+          "voiceCount": 11
+        },
+        {
+          "id": "Act01_Chapter05_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 88,
+          "voiceCount": 80
+        },
+        {
+          "id": "Act01_Chapter05_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 154,
+          "voiceCount": 139
+        },
+        {
+          "id": "Act01_Chapter05_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 174,
+          "voiceCount": 160
+        },
+        {
+          "id": "Act01_Chapter05_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 96,
+          "voiceCount": 89
+        },
+        {
+          "id": "Act01_Chapter05_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 76,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act01_Chapter05_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 82,
+          "voiceCount": 78
+        },
+        {
+          "id": "Act01_Chapter05_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 180,
+          "voiceCount": 168
+        },
+        {
+          "id": "Act01_Chapter05_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 205,
+          "voiceCount": 196
+        },
+        {
+          "id": "Act01_Chapter05_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 219,
+          "voiceCount": 210
+        },
+        {
+          "id": "Act01_Chapter05_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 38,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act01_Chapter05_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 106,
+          "voiceCount": 83
+        },
+        {
+          "id": "Act01_Chapter05_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 207,
+          "voiceCount": 112
+        },
+        {
+          "id": "Act01_Chapter05_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 10,
+          "voiceCount": 5
+        },
+        {
+          "id": "Act01_Chapter05_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 304,
+          "voiceCount": 171
+        },
+        {
+          "id": "Act01_Chapter05_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 94,
+          "voiceCount": 69
+        },
+        {
+          "id": "Act01_Chapter05_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 2,
+          "voiceCount": 2
+        },
+        {
+          "id": "Act01_Chapter05_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 86,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act01_Chapter05_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 115,
+          "voiceCount": 77
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter01",
+      "label": "二周目第一章",
+      "badGroups": [
+        {
+          "adv": "Adv04",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv19",
+          "bads": [
+            "Bad02"
+          ]
+        }
+      ],
+      "sceneCount": 43,
+      "lineCount": 4110,
+      "voiceCount": 3044,
+      "scenes": [
+        {
+          "id": "Act02_Chapter01_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 3,
+          "voiceCount": 3
+        },
+        {
+          "id": "Act02_Chapter01_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 17,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter01_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 93,
+          "voiceCount": 39
+        },
+        {
+          "id": "Act02_Chapter01_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 175,
+          "voiceCount": 114
+        },
+        {
+          "id": "Act02_Chapter01_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 22,
+          "voiceCount": 18
+        },
+        {
+          "id": "Act02_Chapter01_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 41,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act02_Chapter01_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 102,
+          "voiceCount": 50
+        },
+        {
+          "id": "Act02_Chapter01_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 51,
+          "voiceCount": 36
+        },
+        {
+          "id": "Act02_Chapter01_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 178,
+          "voiceCount": 103
+        },
+        {
+          "id": "Act02_Chapter01_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 7,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter01_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 43,
+          "voiceCount": 29
+        },
+        {
+          "id": "Act02_Chapter01_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter01_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 70,
+          "voiceCount": 53
+        },
+        {
+          "id": "Act02_Chapter01_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 71,
+          "voiceCount": 44
+        },
+        {
+          "id": "Act02_Chapter01_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 49,
+          "voiceCount": 33
+        },
+        {
+          "id": "Act02_Chapter01_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 113,
+          "voiceCount": 79
+        },
+        {
+          "id": "Act02_Chapter01_Adv17",
+          "label": "Adv17",
+          "kind": "adv",
+          "lineCount": 48,
+          "voiceCount": 26
+        },
+        {
+          "id": "Act02_Chapter01_Adv18",
+          "label": "Adv18",
+          "kind": "adv",
+          "lineCount": 11,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter01_Adv19",
+          "label": "Adv19",
+          "kind": "adv",
+          "lineCount": 37,
+          "voiceCount": 25
+        },
+        {
+          "id": "Act02_Chapter01_Adv20",
+          "label": "Adv20",
+          "kind": "adv",
+          "lineCount": 99,
+          "voiceCount": 55
+        },
+        {
+          "id": "Act02_Chapter01_Adv21",
+          "label": "Adv21",
+          "kind": "adv",
+          "lineCount": 95,
+          "voiceCount": 49
+        },
+        {
+          "id": "Act02_Chapter01_Adv22",
+          "label": "Adv22",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 8
+        },
+        {
+          "id": "Act02_Chapter01_Adv23",
+          "label": "Adv23",
+          "kind": "adv",
+          "lineCount": 78,
+          "voiceCount": 39
+        },
+        {
+          "id": "Act02_Chapter01_Adv24",
+          "label": "Adv24",
+          "kind": "adv",
+          "lineCount": 73,
+          "voiceCount": 46
+        },
+        {
+          "id": "Act02_Chapter01_Adv25",
+          "label": "Adv25",
+          "kind": "adv",
+          "lineCount": 22,
+          "voiceCount": 10
+        },
+        {
+          "id": "Act02_Chapter01_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 63,
+          "voiceCount": 62
+        },
+        {
+          "id": "Act02_Chapter01_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 79,
+          "voiceCount": 76
+        },
+        {
+          "id": "Act02_Chapter01_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 103,
+          "voiceCount": 97
+        },
+        {
+          "id": "Act02_Chapter01_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 144,
+          "voiceCount": 135
+        },
+        {
+          "id": "Act02_Chapter01_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 59,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act02_Chapter01_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 151,
+          "voiceCount": 140
+        },
+        {
+          "id": "Act02_Chapter01_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 324,
+          "voiceCount": 298
+        },
+        {
+          "id": "Act02_Chapter01_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 113,
+          "voiceCount": 106
+        },
+        {
+          "id": "Act02_Chapter01_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 263,
+          "voiceCount": 254
+        },
+        {
+          "id": "Act02_Chapter01_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 114,
+          "voiceCount": 111
+        },
+        {
+          "id": "Act02_Chapter01_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 174,
+          "voiceCount": 163
+        },
+        {
+          "id": "Act02_Chapter01_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 214,
+          "voiceCount": 206
+        },
+        {
+          "id": "Act02_Chapter01_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 183,
+          "voiceCount": 172
+        },
+        {
+          "id": "Act02_Chapter01_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 44,
+          "voiceCount": 44
+        },
+        {
+          "id": "Act02_Chapter01_Adv26",
+          "label": "Adv26",
+          "kind": "adv",
+          "lineCount": 143,
+          "voiceCount": 62
+        },
+        {
+          "id": "Act02_Chapter01_Adv27",
+          "label": "Adv27",
+          "kind": "adv",
+          "lineCount": 61,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act02_Chapter01_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 209,
+          "voiceCount": 79
+        },
+        {
+          "id": "Act02_Chapter01_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 138,
+          "voiceCount": 79
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter02",
+      "label": "二周目第二章",
+      "badGroups": [
+        {
+          "adv": "Adv12",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv13",
+          "bads": [
+            "Bad02"
+          ]
+        }
+      ],
+      "sceneCount": 37,
+      "lineCount": 3087,
+      "voiceCount": 2352,
+      "scenes": [
+        {
+          "id": "Act02_Chapter02_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 137,
+          "voiceCount": 73
+        },
+        {
+          "id": "Act02_Chapter02_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 67,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act02_Chapter02_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 7,
+          "voiceCount": 2
+        },
+        {
+          "id": "Act02_Chapter02_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter02_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 40,
+          "voiceCount": 23
+        },
+        {
+          "id": "Act02_Chapter02_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 62,
+          "voiceCount": 41
+        },
+        {
+          "id": "Act02_Chapter02_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 62,
+          "voiceCount": 33
+        },
+        {
+          "id": "Act02_Chapter02_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 42,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act02_Chapter02_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 73,
+          "voiceCount": 48
+        },
+        {
+          "id": "Act02_Chapter02_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 63,
+          "voiceCount": 36
+        },
+        {
+          "id": "Act02_Chapter02_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 39,
+          "voiceCount": 26
+        },
+        {
+          "id": "Act02_Chapter02_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 41,
+          "voiceCount": 18
+        },
+        {
+          "id": "Act02_Chapter02_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 31,
+          "voiceCount": 19
+        },
+        {
+          "id": "Act02_Chapter02_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 100,
+          "voiceCount": 60
+        },
+        {
+          "id": "Act02_Chapter02_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 98,
+          "voiceCount": 46
+        },
+        {
+          "id": "Act02_Chapter02_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 30,
+          "voiceCount": 14
+        },
+        {
+          "id": "Act02_Chapter02_Adv17",
+          "label": "Adv17",
+          "kind": "adv",
+          "lineCount": 30,
+          "voiceCount": 19
+        },
+        {
+          "id": "Act02_Chapter02_Adv18",
+          "label": "Adv18",
+          "kind": "adv",
+          "lineCount": 13,
+          "voiceCount": 6
+        },
+        {
+          "id": "Act02_Chapter02_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 32,
+          "voiceCount": 31
+        },
+        {
+          "id": "Act02_Chapter02_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 63,
+          "voiceCount": 60
+        },
+        {
+          "id": "Act02_Chapter02_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 124,
+          "voiceCount": 118
+        },
+        {
+          "id": "Act02_Chapter02_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 113,
+          "voiceCount": 106
+        },
+        {
+          "id": "Act02_Chapter02_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 202,
+          "voiceCount": 190
+        },
+        {
+          "id": "Act02_Chapter02_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 103,
+          "voiceCount": 91
+        },
+        {
+          "id": "Act02_Chapter02_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 114,
+          "voiceCount": 106
+        },
+        {
+          "id": "Act02_Chapter02_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 126,
+          "voiceCount": 117
+        },
+        {
+          "id": "Act02_Chapter02_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 176,
+          "voiceCount": 168
+        },
+        {
+          "id": "Act02_Chapter02_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 204,
+          "voiceCount": 191
+        },
+        {
+          "id": "Act02_Chapter02_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 78,
+          "voiceCount": 74
+        },
+        {
+          "id": "Act02_Chapter02_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 199,
+          "voiceCount": 177
+        },
+        {
+          "id": "Act02_Chapter02_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 87,
+          "voiceCount": 80
+        },
+        {
+          "id": "Act02_Chapter02_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 67,
+          "voiceCount": 67
+        },
+        {
+          "id": "Act02_Chapter02_Adv19",
+          "label": "Adv19",
+          "kind": "adv",
+          "lineCount": 221,
+          "voiceCount": 113
+        },
+        {
+          "id": "Act02_Chapter02_Adv20",
+          "label": "Adv20",
+          "kind": "adv",
+          "lineCount": 41,
+          "voiceCount": 22
+        },
+        {
+          "id": "Act02_Chapter02_Adv21",
+          "label": "Adv21",
+          "kind": "adv",
+          "lineCount": 23,
+          "voiceCount": 12
+        },
+        {
+          "id": "Act02_Chapter02_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 96,
+          "voiceCount": 44
+        },
+        {
+          "id": "Act02_Chapter02_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 83,
+          "voiceCount": 51
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter03",
+      "label": "二周目第三章",
+      "badGroups": [
+        {
+          "adv": "Adv06",
+          "bads": [
+            "Bad01"
+          ]
+        }
+      ],
+      "sceneCount": 31,
+      "lineCount": 2806,
+      "voiceCount": 2196,
+      "scenes": [
+        {
+          "id": "Act02_Chapter03_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 74,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act02_Chapter03_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 153,
+          "voiceCount": 88
+        },
+        {
+          "id": "Act02_Chapter03_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 17,
+          "voiceCount": 12
+        },
+        {
+          "id": "Act02_Chapter03_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter03_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 51,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act02_Chapter03_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 112,
+          "voiceCount": 68
+        },
+        {
+          "id": "Act02_Chapter03_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 69,
+          "voiceCount": 35
+        },
+        {
+          "id": "Act02_Chapter03_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 44,
+          "voiceCount": 22
+        },
+        {
+          "id": "Act02_Chapter03_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 79,
+          "voiceCount": 41
+        },
+        {
+          "id": "Act02_Chapter03_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 96,
+          "voiceCount": 28
+        },
+        {
+          "id": "Act02_Chapter03_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 21,
+          "voiceCount": 10
+        },
+        {
+          "id": "Act02_Chapter03_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 33,
+          "voiceCount": 14
+        },
+        {
+          "id": "Act02_Chapter03_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 7,
+          "voiceCount": 2
+        },
+        {
+          "id": "Act02_Chapter03_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 58,
+          "voiceCount": 53
+        },
+        {
+          "id": "Act02_Chapter03_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 113,
+          "voiceCount": 108
+        },
+        {
+          "id": "Act02_Chapter03_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 68,
+          "voiceCount": 64
+        },
+        {
+          "id": "Act02_Chapter03_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 95,
+          "voiceCount": 91
+        },
+        {
+          "id": "Act02_Chapter03_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 127,
+          "voiceCount": 119
+        },
+        {
+          "id": "Act02_Chapter03_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 68,
+          "voiceCount": 65
+        },
+        {
+          "id": "Act02_Chapter03_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 191,
+          "voiceCount": 183
+        },
+        {
+          "id": "Act02_Chapter03_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 124,
+          "voiceCount": 118
+        },
+        {
+          "id": "Act02_Chapter03_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 150,
+          "voiceCount": 141
+        },
+        {
+          "id": "Act02_Chapter03_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 131,
+          "voiceCount": 127
+        },
+        {
+          "id": "Act02_Chapter03_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 152,
+          "voiceCount": 145
+        },
+        {
+          "id": "Act02_Chapter03_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 125,
+          "voiceCount": 115
+        },
+        {
+          "id": "Act02_Chapter03_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 125,
+          "voiceCount": 119
+        },
+        {
+          "id": "Act02_Chapter03_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 171,
+          "voiceCount": 162
+        },
+        {
+          "id": "Act02_Chapter03_Trial14",
+          "label": "Trial14",
+          "kind": "trial",
+          "lineCount": 37,
+          "voiceCount": 37
+        },
+        {
+          "id": "Act02_Chapter03_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 185,
+          "voiceCount": 78
+        },
+        {
+          "id": "Act02_Chapter03_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 17,
+          "voiceCount": 2
+        },
+        {
+          "id": "Act02_Chapter03_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 113,
+          "voiceCount": 73
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter04",
+      "label": "二周目第四章",
+      "badGroups": [
+        {
+          "adv": "Adv02",
+          "bads": [
+            "Bad01"
+          ]
+        },
+        {
+          "adv": "Adv05",
+          "bads": [
+            "Bad02"
+          ]
+        },
+        {
+          "adv": "Adv08",
+          "bads": [
+            "Bad03"
+          ]
+        },
+        {
+          "adv": "Adv10",
+          "bads": [
+            "Bad04"
+          ]
+        }
+      ],
+      "sceneCount": 32,
+      "lineCount": 2891,
+      "voiceCount": 1998,
+      "scenes": [
+        {
+          "id": "Act02_Chapter04_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 136,
+          "voiceCount": 84
+        },
+        {
+          "id": "Act02_Chapter04_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 29,
+          "voiceCount": 15
+        },
+        {
+          "id": "Act02_Chapter04_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 0,
+          "voiceCount": 0
+        },
+        {
+          "id": "Act02_Chapter04_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 49,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act02_Chapter04_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 42,
+          "voiceCount": 19
+        },
+        {
+          "id": "Act02_Chapter04_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 43,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act02_Chapter04_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 28,
+          "voiceCount": 12
+        },
+        {
+          "id": "Act02_Chapter04_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 47,
+          "voiceCount": 23
+        },
+        {
+          "id": "Act02_Chapter04_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 22,
+          "voiceCount": 13
+        },
+        {
+          "id": "Act02_Chapter04_Adv10",
+          "label": "Adv10",
+          "kind": "adv",
+          "lineCount": 95,
+          "voiceCount": 45
+        },
+        {
+          "id": "Act02_Chapter04_Adv11",
+          "label": "Adv11",
+          "kind": "adv",
+          "lineCount": 45,
+          "voiceCount": 23
+        },
+        {
+          "id": "Act02_Chapter04_Adv12",
+          "label": "Adv12",
+          "kind": "adv",
+          "lineCount": 174,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act02_Chapter04_Adv13",
+          "label": "Adv13",
+          "kind": "adv",
+          "lineCount": 27,
+          "voiceCount": 7
+        },
+        {
+          "id": "Act02_Chapter04_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 96,
+          "voiceCount": 95
+        },
+        {
+          "id": "Act02_Chapter04_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 65,
+          "voiceCount": 60
+        },
+        {
+          "id": "Act02_Chapter04_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 74,
+          "voiceCount": 71
+        },
+        {
+          "id": "Act02_Chapter04_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 118,
+          "voiceCount": 111
+        },
+        {
+          "id": "Act02_Chapter04_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 216,
+          "voiceCount": 206
+        },
+        {
+          "id": "Act02_Chapter04_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 105,
+          "voiceCount": 98
+        },
+        {
+          "id": "Act02_Chapter04_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 112,
+          "voiceCount": 105
+        },
+        {
+          "id": "Act02_Chapter04_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 124,
+          "voiceCount": 117
+        },
+        {
+          "id": "Act02_Chapter04_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 147,
+          "voiceCount": 139
+        },
+        {
+          "id": "Act02_Chapter04_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 99,
+          "voiceCount": 93
+        },
+        {
+          "id": "Act02_Chapter04_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 129,
+          "voiceCount": 123
+        },
+        {
+          "id": "Act02_Chapter04_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 40,
+          "voiceCount": 40
+        },
+        {
+          "id": "Act02_Chapter04_Adv14",
+          "label": "Adv14",
+          "kind": "adv",
+          "lineCount": 196,
+          "voiceCount": 74
+        },
+        {
+          "id": "Act02_Chapter04_Adv15",
+          "label": "Adv15",
+          "kind": "adv",
+          "lineCount": 139,
+          "voiceCount": 57
+        },
+        {
+          "id": "Act02_Chapter04_Adv16",
+          "label": "Adv16",
+          "kind": "adv",
+          "lineCount": 137,
+          "voiceCount": 85
+        },
+        {
+          "id": "Act02_Chapter04_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 112,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act02_Chapter04_Bad02",
+          "label": "Bad02",
+          "kind": "bad",
+          "lineCount": 103,
+          "voiceCount": 61
+        },
+        {
+          "id": "Act02_Chapter04_Bad03",
+          "label": "Bad03",
+          "kind": "bad",
+          "lineCount": 69,
+          "voiceCount": 37
+        },
+        {
+          "id": "Act02_Chapter04_Bad04",
+          "label": "Bad04",
+          "kind": "bad",
+          "lineCount": 73,
+          "voiceCount": 21
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter05",
+      "label": "三周目第一章",
+      "badGroups": [
+        {
+          "adv": "Adv02",
+          "bads": [
+            "Bad01"
+          ]
+        }
+      ],
+      "sceneCount": 34,
+      "lineCount": 3195,
+      "voiceCount": 2741,
+      "scenes": [
+        {
+          "id": "Act02_Chapter05_Adv01",
+          "label": "Adv01",
+          "kind": "adv",
+          "lineCount": 18,
+          "voiceCount": 18
+        },
+        {
+          "id": "Act02_Chapter05_Adv02",
+          "label": "Adv02",
+          "kind": "adv",
+          "lineCount": 75,
+          "voiceCount": 27
+        },
+        {
+          "id": "Act02_Chapter05_Adv03",
+          "label": "Adv03",
+          "kind": "adv",
+          "lineCount": 75,
+          "voiceCount": 45
+        },
+        {
+          "id": "Act02_Chapter05_Adv04",
+          "label": "Adv04",
+          "kind": "adv",
+          "lineCount": 50,
+          "voiceCount": 25
+        },
+        {
+          "id": "Act02_Chapter05_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 48,
+          "voiceCount": 48
+        },
+        {
+          "id": "Act02_Chapter05_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 81,
+          "voiceCount": 76
+        },
+        {
+          "id": "Act02_Chapter05_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 151,
+          "voiceCount": 147
+        },
+        {
+          "id": "Act02_Chapter05_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 63,
+          "voiceCount": 60
+        },
+        {
+          "id": "Act02_Chapter05_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 102,
+          "voiceCount": 95
+        },
+        {
+          "id": "Act02_Chapter05_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 163,
+          "voiceCount": 159
+        },
+        {
+          "id": "Act02_Chapter05_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 49,
+          "voiceCount": 46
+        },
+        {
+          "id": "Act02_Chapter05_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 110,
+          "voiceCount": 103
+        },
+        {
+          "id": "Act02_Chapter05_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 78,
+          "voiceCount": 74
+        },
+        {
+          "id": "Act02_Chapter05_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 206,
+          "voiceCount": 194
+        },
+        {
+          "id": "Act02_Chapter05_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 77,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act02_Chapter05_Trial11",
+          "label": "Trial11",
+          "kind": "trial",
+          "lineCount": 64,
+          "voiceCount": 59
+        },
+        {
+          "id": "Act02_Chapter05_Trial12",
+          "label": "Trial12",
+          "kind": "trial",
+          "lineCount": 158,
+          "voiceCount": 149
+        },
+        {
+          "id": "Act02_Chapter05_Trial13",
+          "label": "Trial13",
+          "kind": "trial",
+          "lineCount": 76,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act02_Chapter05_Trial14",
+          "label": "Trial14",
+          "kind": "trial",
+          "lineCount": 101,
+          "voiceCount": 90
+        },
+        {
+          "id": "Act02_Chapter05_Trial15",
+          "label": "Trial15",
+          "kind": "trial",
+          "lineCount": 138,
+          "voiceCount": 133
+        },
+        {
+          "id": "Act02_Chapter05_Trial16",
+          "label": "Trial16",
+          "kind": "trial",
+          "lineCount": 94,
+          "voiceCount": 85
+        },
+        {
+          "id": "Act02_Chapter05_Trial17",
+          "label": "Trial17",
+          "kind": "trial",
+          "lineCount": 98,
+          "voiceCount": 92
+        },
+        {
+          "id": "Act02_Chapter05_Trial18",
+          "label": "Trial18",
+          "kind": "trial",
+          "lineCount": 81,
+          "voiceCount": 75
+        },
+        {
+          "id": "Act02_Chapter05_Trial19",
+          "label": "Trial19",
+          "kind": "trial",
+          "lineCount": 115,
+          "voiceCount": 108
+        },
+        {
+          "id": "Act02_Chapter05_Trial20",
+          "label": "Trial20",
+          "kind": "trial",
+          "lineCount": 78,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act02_Chapter05_Trial21",
+          "label": "Trial21",
+          "kind": "trial",
+          "lineCount": 104,
+          "voiceCount": 97
+        },
+        {
+          "id": "Act02_Chapter05_Trial22",
+          "label": "Trial22",
+          "kind": "trial",
+          "lineCount": 39,
+          "voiceCount": 34
+        },
+        {
+          "id": "Act02_Chapter05_Trial23",
+          "label": "Trial23",
+          "kind": "trial",
+          "lineCount": 75,
+          "voiceCount": 72
+        },
+        {
+          "id": "Act02_Chapter05_Trial24",
+          "label": "Trial24",
+          "kind": "trial",
+          "lineCount": 61,
+          "voiceCount": 58
+        },
+        {
+          "id": "Act02_Chapter05_Trial25",
+          "label": "Trial25",
+          "kind": "trial",
+          "lineCount": 122,
+          "voiceCount": 116
+        },
+        {
+          "id": "Act02_Chapter05_Trial26",
+          "label": "Trial26",
+          "kind": "trial",
+          "lineCount": 35,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act02_Chapter05_Trial27",
+          "label": "Trial27",
+          "kind": "trial",
+          "lineCount": 34,
+          "voiceCount": 30
+        },
+        {
+          "id": "Act02_Chapter05_Trial28",
+          "label": "Trial28",
+          "kind": "trial",
+          "lineCount": 73,
+          "voiceCount": 64
+        },
+        {
+          "id": "Act02_Chapter05_Bad01",
+          "label": "Bad01",
+          "kind": "bad",
+          "lineCount": 303,
+          "voiceCount": 114
+        }
+      ]
+    },
+    {
+      "id": "Act02_Chapter06",
+      "label": "三周目第二章",
+      "badGroups": [],
+      "sceneCount": 16,
+      "lineCount": 1590,
+      "voiceCount": 1398,
+      "scenes": [
+        {
+          "id": "Act02_Chapter05_Adv05",
+          "label": "Adv05",
+          "kind": "adv",
+          "lineCount": 41,
+          "voiceCount": 21
+        },
+        {
+          "id": "Act02_Chapter06_Trial00",
+          "label": "Trial00",
+          "kind": "trial",
+          "lineCount": 39,
+          "voiceCount": 38
+        },
+        {
+          "id": "Act02_Chapter06_Trial01",
+          "label": "Trial01",
+          "kind": "trial",
+          "lineCount": 99,
+          "voiceCount": 93
+        },
+        {
+          "id": "Act02_Chapter06_Trial02",
+          "label": "Trial02",
+          "kind": "trial",
+          "lineCount": 73,
+          "voiceCount": 68
+        },
+        {
+          "id": "Act02_Chapter06_Trial03",
+          "label": "Trial03",
+          "kind": "trial",
+          "lineCount": 100,
+          "voiceCount": 93
+        },
+        {
+          "id": "Act02_Chapter06_Trial04",
+          "label": "Trial04",
+          "kind": "trial",
+          "lineCount": 232,
+          "voiceCount": 222
+        },
+        {
+          "id": "Act02_Chapter06_Trial05",
+          "label": "Trial05",
+          "kind": "trial",
+          "lineCount": 148,
+          "voiceCount": 139
+        },
+        {
+          "id": "Act02_Chapter06_Trial06",
+          "label": "Trial06",
+          "kind": "trial",
+          "lineCount": 96,
+          "voiceCount": 90
+        },
+        {
+          "id": "Act02_Chapter06_Trial07",
+          "label": "Trial07",
+          "kind": "trial",
+          "lineCount": 116,
+          "voiceCount": 109
+        },
+        {
+          "id": "Act02_Chapter06_Trial08",
+          "label": "Trial08",
+          "kind": "trial",
+          "lineCount": 177,
+          "voiceCount": 171
+        },
+        {
+          "id": "Act02_Chapter06_Trial09",
+          "label": "Trial09",
+          "kind": "trial",
+          "lineCount": 118,
+          "voiceCount": 112
+        },
+        {
+          "id": "Act02_Chapter06_Trial10",
+          "label": "Trial10",
+          "kind": "trial",
+          "lineCount": 32,
+          "voiceCount": 32
+        },
+        {
+          "id": "Act02_Chapter05_Adv06",
+          "label": "Adv06",
+          "kind": "adv",
+          "lineCount": 146,
+          "voiceCount": 92
+        },
+        {
+          "id": "Act02_Chapter05_Adv07",
+          "label": "Adv07",
+          "kind": "adv",
+          "lineCount": 87,
+          "voiceCount": 55
+        },
+        {
+          "id": "Act02_Chapter05_Adv08",
+          "label": "Adv08",
+          "kind": "adv",
+          "lineCount": 77,
+          "voiceCount": 54
+        },
+        {
+          "id": "Act02_Chapter05_Adv09",
+          "label": "Adv09",
+          "kind": "adv",
+          "lineCount": 9,
+          "voiceCount": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "manosaba-library-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node tools/dev-server.mjs",
+    "dev": "node tools/dev-server.mjs",
+    "build:data": "node tools/build_data.mjs && node tools/split_data.mjs"
+  }
+}
